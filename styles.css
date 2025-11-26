@@ -1,0 +1,150 @@
+   
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #3b434b;
+}
+
+.topnav {
+  background-color: #3b434b;
+  padding: 10px 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.topnav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  border-bottom: 2px solid #1e242a;
+  padding-bottom: 8px;
+}
+
+.topnav a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+/* Alıntı kutusu */
+.quote-box {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 2px;
+    justify-content: right;
+}
+
+.quote {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.source {
+    font-style: italic;
+}
+
+.content {
+    display: flex;             
+    align-items: flex-start;  
+    gap: 50px;                  
+    padding: 50px;
+}
+
+/* Resim alanı */
+.left-image img {
+    width: 500px;
+    height: auto;
+    display: block;
+}
+
+/* Sağdaki yazı alanı */
+.right-text {
+    color: #cdd2d6;
+    font-family: Georgia, serif;
+}
+
+
+.right-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+
+.author {
+    font-size: 60px;
+    letter-spacing: 3px;
+    color: #a9b0b6;
+}
+/* INFO KISMI*/
+
+.content {
+    width: 60%;
+    margin: 60px auto;
+}
+
+/* Üstteki büyük kutu */
+.info-box {
+    border: 8px solid rgba(255,255,255,0.4);
+    padding: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Başlıklar */
+h2 {
+    margin: 30px 0 20px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    border: 3px solid rgba(255,255,255,0.4);
+    background-color:rgba(255,255,255,0.4);
+    text-align: center;
+}
+
+/* Paragraflar */
+.section-text {
+    font-size: 16px;
+    line-height: 1.7;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* BOOKS KISIM*/
+section {
+    width: 40%;
+    margin: 70px auto;
+    padding: 30px 40px;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 8px;
+    background: rgba(255,255,255,0.05);
+    text-align: left;
+}
+
+section h1 {
+    margin-bottom: 25px;
+    color: #f6eef0;
+    font-size: 35px;
+    text-align: center
+}
+
+section ul {
+    padding: 0;
+}
+
+section ul li {
+    margin: 12px 0;
+    font-size: 20px;
+    color: #e2dfdf;
+}
